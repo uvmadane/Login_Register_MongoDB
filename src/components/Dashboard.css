@@ -1,0 +1,44 @@
+.dashboard-container {
+    margin-top: 50px;
+  }
+  
+  .table th, .table td {
+    vertical-align: middle;
+    text-align: center;
+  }
+  
+  .status-active {
+    color: green;
+    font-weight: bold;
+  }
+  
+  .status-suspended {
+    color: orange;
+    font-weight: bold;
+  }
+  
+  .status-inactive {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .action-btn {
+    background: none;
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+  }
+  
+  .action-btn:hover {
+    opacity: 0.7;
+  }
+  
+  .settings-btn {
+    color: #007bff;
+    margin-right: 10px;
+  }
+  
+  .delete-btn {
+    color: #dc3545;
+  }
+  
